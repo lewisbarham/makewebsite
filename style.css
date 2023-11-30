@@ -1,5 +1,7 @@
 * {
-font-family: sans-serif;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -7,9 +9,9 @@ header {
     position: fixed;
     color: #fff;
     display: flex;
-    padding: 1% 2%;
+    padding: 2% 2%;
     gap: 3rem;
-    z-index: 1
+    z-index: 1;
 
 }
 
@@ -28,7 +30,7 @@ h2 {
 
 header a {
     color: #fff;
-
+    
 }
 html {
     scroll-behavior: smooth;
@@ -38,17 +40,25 @@ nav {
     display: flex;
     gap: 2.3rem;
     text-transform: uppercase;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+    
+}
+.button     {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+
 }
 
 nav a {
     text-decoration: none;
     font-size: .85rem;
-    font-weight: 700
+    font-weight: 700;
 }
 
 nav a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .feature1 {
@@ -86,7 +96,7 @@ nav a:hover {
     display: flex;
     padding: 2.5rem 3rem;
     gap: 3rem;
-    z-index: 1
+    z-index: 1;
   }
 
   .post1 {
