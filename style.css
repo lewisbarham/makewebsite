@@ -1,1 +1,155 @@
-body
+* {
+font-family: sans-serif;
+
+}
+
+header {
+    position: fixed;
+    color: #fff;
+    display: flex;
+    padding: 1% 2%;
+    gap: 3rem;
+    z-index: 1
+
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: xxx-large;
+
+}
+
+h2 {
+    font-weight: 200;
+    opacity: 2;
+    font-size: 1.5rem;
+
+}
+
+header a {
+    color: #fff;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    gap: 2.3rem;
+    text-transform: uppercase;
+    align-items: center
+}
+
+nav a {
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 700
+}
+
+nav a:hover {
+    text-decoration: underline
+}
+
+.feature1 {
+    height: 100vh;
+    background-image: url("./images/spacex.jpg");
+    background-size: cover;
+    position: relative;
+    text-transform: uppercase;
+   }
+
+.feature2 {
+    height: 100vh;
+    background-image: url("./images/space.jpg");
+    background-size: cover;
+    position: relative;
+    text-transform: uppercase;
+   }
+
+.feature3 {
+    height: 100vh;
+    background-image: url("./images/nasa.jpg");
+    background-size: cover;
+    position: relative;
+    text-transform: uppercase;
+   }
+
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    position: fixed;
+    color: #fff;
+    display: flex;
+    padding: 2.5rem 3rem;
+    gap: 3rem;
+    z-index: 1
+  }
+
+  .post1 {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    opacity: 1;
+}
+
+.post2 {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    opacity: 1;
+}
+
+.post3 {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    opacity: 1;
+}
+
+button {
+    margin-top: 1.2rem;
+    display: inline-block;
+    max-width: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .1rem;
+    opacity: 1;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ffffffc0;
+    background-color: transparent;
+
+}
+
+footer {
+    background: black;
+    text-align: center;
+    color: #555;
+    padding: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
